@@ -140,3 +140,8 @@ Day 20 (Flexible Pipeline)
 - Accepts input folder, reference genome, and output folder
 - Supports batch processing of FASTQ files
 - Structured workflow for real-world usage
+
+Day 21 (Variant Calling Setup)
+- Installed bcftools
+- Prepared sorted and indexed BAM files
+- Understood preparation steps required before variant calling
