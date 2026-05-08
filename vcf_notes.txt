@@ -1,0 +1,4 @@
+CHROM   POS   REF   ALT
+chr1    105    A     G
+
+This means the reference genome has A at position 105, but the sample has G instead.

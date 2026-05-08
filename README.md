@@ -150,3 +150,8 @@ Day 22 (First Variant Calling)
 - Generated first VCF file using bcftools
 - Learned mpileup and variant calling workflow
 - Understood REF, ALT, and genomic variant positions
+
+Day 23 (Understanding VCF)
+- Learned basic VCF structure
+- Understood CHROM, POS, REF, ALT, and QUAL columns
+- Practiced interpreting simple variants
