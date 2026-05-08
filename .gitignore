@@ -8,3 +8,9 @@
 
 # Stats
 *_stats.txt
+
+*.bam
+*.bai
+*.bcf
+*.vcf
+*.fai

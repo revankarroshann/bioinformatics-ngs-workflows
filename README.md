@@ -145,3 +145,8 @@ Day 21 (Variant Calling Setup)
 - Installed bcftools
 - Prepared sorted and indexed BAM files
 - Understood preparation steps required before variant calling
+
+Day 22 (First Variant Calling)
+- Generated first VCF file using bcftools
+- Learned mpileup and variant calling workflow
+- Understood REF, ALT, and genomic variant positions
