@@ -1,0 +1,7 @@
+QUAL = Confidence score of a variant 
+Higher QUAL means more reliable variant calls 
+
+DP = Real Depth 
+Higher DP means more reads support the variant 
+
+Variant filtering removes low-confidence variants 

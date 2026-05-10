@@ -155,3 +155,9 @@ Day 23 (Understanding VCF)
 - Learned basic VCF structure
 - Understood CHROM, POS, REF, ALT, and QUAL columns
 - Practiced interpreting simple variants
+
+Day 24 (Variant Filtering)
+- Learned variant filtering using bcftools
+- Understood QUAL (confidence score) and DP (read depth)
+- Generated filtered VCF file using QUAL-based filtering
+- Practiced removing low-confidence variants
