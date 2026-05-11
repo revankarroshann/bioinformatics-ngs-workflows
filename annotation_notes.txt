@@ -1,0 +1,5 @@
+Variant annotation helps us understand the possible biological effects of a variant.
+
+Low impact = small effect 
+Moderate impact = Possible protien effect
+High impact = potentially damaging effect 

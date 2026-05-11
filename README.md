@@ -161,3 +161,8 @@ Day 24 (Variant Filtering)
 - Understood QUAL (confidence score) and DP (read depth)
 - Generated filtered VCF file using QUAL-based filtering
 - Practiced removing low-confidence variants
+
+Day 25 (Variant Annotation Basics)
+- Learned the purpose of variant annotation
+- Understood LOW, MODERATE, and HIGH impact variants
+- Differentiated between variant calling and annotation
