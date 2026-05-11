@@ -166,3 +166,9 @@ Day 25 (Variant Annotation Basics)
 - Learned the purpose of variant annotation
 - Understood LOW, MODERATE, and HIGH impact variants
 - Differentiated between variant calling and annotation
+
+Day 26 (RNA-seq Introduction)
+- Learned the purpose of RNA-seq and gene expression analysis
+- Understood the difference between WGS and RNA-seq
+- Installed STAR aligner
+- Learned why STAR is splice-aware

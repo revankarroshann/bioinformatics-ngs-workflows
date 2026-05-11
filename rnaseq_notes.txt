@@ -1,0 +1,6 @@
+RNA-seq measures gene expression. 
+
+DNA tells us what genes exist.
+RNA tells us which genes are active. 
+
+STAR is a splice-aware aligner used for RNA-Seq data. 
