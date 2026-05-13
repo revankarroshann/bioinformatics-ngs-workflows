@@ -172,3 +172,9 @@ Day 26 (RNA-seq Introduction)
 - Understood the difference between WGS and RNA-seq
 - Installed STAR aligner
 - Learned why STAR is splice-aware
+
+Day 27 (STAR Genome Indexing)
+- Learned STAR genome indexing for RNA-seq alignment
+- Understood why indexing is required before alignment
+- Learned that tiny genomes may require smaller indexing settings
+- Successfully generated STAR index files

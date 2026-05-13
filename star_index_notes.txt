@@ -1,0 +1,4 @@
+STAR indexing prepares the reference genome for RNA-seq alignment.
+Indexing makes alignment faster and organized. 
+Tiny genomes may require smaller STAR indexing settings.
+
