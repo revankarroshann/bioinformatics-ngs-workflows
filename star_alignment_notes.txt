@@ -1,0 +1,4 @@
+STAR alignment maps RNA-seq reads to the reference genome. 
+STAR is splice-aware and suitable for RNA-seq data. 
+Aligned.out.sam stores alignment information. 
+Log.final.out contains RNA-seq alignment statistics.

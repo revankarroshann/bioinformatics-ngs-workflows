@@ -178,3 +178,9 @@ Day 27 (STAR Genome Indexing)
 - Understood why indexing is required before alignment
 - Learned that tiny genomes may require smaller indexing settings
 - Successfully generated STAR index files
+
+Day 28 (STAR RNA-seq Alignment)
+- Performed RNA-seq alignment using STAR
+- Generated RNA-seq alignment outputs and statistics
+- Learned the role of Aligned.out.sam and Log.final.out
+- Understood STAR as a splice-aware RNA-seq aligner
