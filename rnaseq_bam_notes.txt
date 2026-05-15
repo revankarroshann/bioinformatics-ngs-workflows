@@ -1,0 +1,7 @@
+RNA-seq SAM files can be converted into BAM format using samtools.
+
+Sorting organizes reads by genomic position.
+
+Indexing allows fast access to alignment regions.
+
+flagstat provides alignment statistics.

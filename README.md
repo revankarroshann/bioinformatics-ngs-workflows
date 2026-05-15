@@ -184,3 +184,9 @@ Day 28 (STAR RNA-seq Alignment)
 - Generated RNA-seq alignment outputs and statistics
 - Learned the role of Aligned.out.sam and Log.final.out
 - Understood STAR as a splice-aware RNA-seq aligner
+
+Day 29 (RNA-seq BAM Processing)
+- Converted STAR SAM output into BAM format
+- Sorted and indexed RNA-seq BAM files
+- Generated alignment statistics using samtools flagstat
+- Reused BAM workflow concepts in RNA-seq analysis
