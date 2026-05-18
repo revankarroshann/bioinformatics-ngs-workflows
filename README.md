@@ -190,3 +190,9 @@ Day 29 (RNA-seq BAM Processing)
 - Sorted and indexed RNA-seq BAM files
 - Generated alignment statistics using samtools flagstat
 - Reused BAM workflow concepts in RNA-seq analysis
+
+Day 30 (featureCounts and Gene Expression)
+- Installed and used featureCounts for RNA-seq analysis
+- Learned how gene expression counts are generated
+- Understood the role of GTF annotation files
+- Generated a basic gene count matrix

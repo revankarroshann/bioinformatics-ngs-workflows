@@ -1,0 +1,5 @@
+featureCounts counts how many reads map to genes.
+
+Higher read counts usually indicate higher gene expression.
+
+Gene annotation files help identify gene locations.
