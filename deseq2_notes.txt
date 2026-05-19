@@ -1,0 +1,5 @@
+DESeq2 is an R package used for differential gene expression analysis.
+
+DESeq2 helps identify significantly changed genes between conditions.
+
+DESeq2 is widely used in RNA-seq analysis workflows.

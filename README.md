@@ -208,3 +208,9 @@ Day 32 (Differential Expression Basics)
 - Understood upregulated and downregulated genes
 - Learned how expression changes between conditions are analyzed
 - Introduced fold change concepts in RNA-seq analysis
+
+Day 33 (R and DESeq2 Setup)
+- Installed R and Bioconductor packages
+- Successfully configured DESeq2 environment
+- Learned the role of DESeq2 in RNA-seq differential expression analysis
+- Understood dependency management in bioinformatics workflows
