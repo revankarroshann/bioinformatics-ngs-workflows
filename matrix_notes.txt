@@ -1,0 +1,7 @@
+GeneA 120 
+GeneB 35 
+GeneC 500
+
+Higher counts usually indicates higher gene expression. 
+
+

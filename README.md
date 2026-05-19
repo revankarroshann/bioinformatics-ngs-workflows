@@ -196,3 +196,9 @@ Day 30 (featureCounts and Gene Expression)
 - Learned how gene expression counts are generated
 - Understood the role of GTF annotation files
 - Generated a basic gene count matrix
+
+Day 31 (Understanding Count Matrices)
+- Learned the structure of RNA-seq count matrices
+- Understood rows as genes and columns as samples
+- Interpreted gene expression counts from featureCounts output
+- Connected read counts with gene expression levels
