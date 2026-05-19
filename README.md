@@ -202,3 +202,9 @@ Day 31 (Understanding Count Matrices)
 - Understood rows as genes and columns as samples
 - Interpreted gene expression counts from featureCounts output
 - Connected read counts with gene expression levels
+
+Day 32 (Differential Expression Basics)
+- Learned the concept of differential gene expression
+- Understood upregulated and downregulated genes
+- Learned how expression changes between conditions are analyzed
+- Introduced fold change concepts in RNA-seq analysis

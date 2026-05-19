@@ -1,0 +1,8 @@
+Differential expression compares gene expression between conditions. 
+
+Unregulated genes show increased expression. 
+
+Downregulated genes show decreased expression. 
+
+Fold change measures how much expression changes.
+

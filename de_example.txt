@@ -1,0 +1,5 @@
+GeneA	50	500
+GeneB	400	20
+
+GeneA is upregulated. 
+GeneB is downregulated.
