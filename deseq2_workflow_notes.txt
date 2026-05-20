@@ -1,0 +1,6 @@
+DESeq2 compares gene expression between conditions.
+
+Count matrices are loaded into R for analysis.
+
+DESeq2 identifies genes with significant expression changes.
+

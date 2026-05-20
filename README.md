@@ -214,3 +214,9 @@ Day 33 (R and DESeq2 Setup)
 - Successfully configured DESeq2 environment
 - Learned the role of DESeq2 in RNA-seq differential expression analysis
 - Understood dependency management in bioinformatics workflows
+
+Day 34 (First DESeq2 Workflow)
+- Loaded count matrix into DESeq2
+- Created DESeq2 datasets using sample metadata
+- Learned the importance of biological replicates
+- Interpreted log2FoldChange and p-values in differential expression results

@@ -1,0 +1,4 @@
+Gene,Control1,Control2,Treated1,Treated2
+GeneA,50,55,500,520
+GeneB,400,390,20,25
+GeneC,100,110,105,115
