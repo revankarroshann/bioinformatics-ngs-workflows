@@ -1,0 +1,7 @@
+Volcano plots visualize differential gene expression results.
+
+The x-axis represents log2 fold change.
+
+The y-axis represents statistical significance.
+
+Highly significant genes appear higher on the plot.

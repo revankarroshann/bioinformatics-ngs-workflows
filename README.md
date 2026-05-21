@@ -220,3 +220,9 @@ Day 34 (First DESeq2 Workflow)
 - Created DESeq2 datasets using sample metadata
 - Learned the importance of biological replicates
 - Interpreted log2FoldChange and p-values in differential expression results
+
+Day 35 (Volcano Plot Visualization)
+- Created a volcano plot for differential gene expression visualization
+- Learned the meaning of log2 fold change and p-values
+- Interpreted significant upregulated and downregulated genes
+- Understood RNA-seq result visualization basics
