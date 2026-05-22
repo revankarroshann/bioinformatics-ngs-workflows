@@ -1,0 +1,5 @@
+Heatmaps visualize gene expression intensity using colors.
+
+Highly expressed genes show stronger color patterns.
+
+Heatmaps help identify expression differences between samples.

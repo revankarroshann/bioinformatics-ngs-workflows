@@ -226,3 +226,9 @@ Day 35 (Volcano Plot Visualization)
 - Learned the meaning of log2 fold change and p-values
 - Interpreted significant upregulated and downregulated genes
 - Understood RNA-seq result visualization basics
+
+Day 36 (Heatmaps and Expression Visualization)
+- Created a gene expression heatmap in R
+- Learned how heatmaps visualize expression intensity
+- Interpreted expression differences across samples
+- Understood the role of heatmaps in transcriptomics analysis
