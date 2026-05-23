@@ -1,6 +1,6 @@
 # Bioinformatics NGS Workflows
 
-A beginner-to-intermediate bioinformatics workflow repository focused on Next-Generation Sequencing (NGS) data analysis, RNA-seq processing, workflow automation, and Linux-based bioinformatics pipelines.
+A hands-on bioinformatics workflow repository focused on Next-Generation Sequencing (NGS) data analysis, RNA-seq processing, workflow automation, and Linux-based bioinformatics pipelines.
 
 This repository demonstrates hands-on implementation of commonly used bioinformatics tools and workflows used in genomic and transcriptomic analysis.
 
@@ -115,7 +115,7 @@ Repository includes:
 
 ---
 
-# Learning Objectives
+#  What This Repository Demonstrates
 
 This repository was built to strengthen practical understanding of:
 - NGS workflows
@@ -125,12 +125,3 @@ This repository was built to strengthen practical understanding of:
 - Genomic data processing
 
 ---
-
-# Future Improvements
-
-Planned future additions:
-- Full RNA-seq differential expression workflow
-- Multi-sample automation
-- Advanced visualization
-- Containerized workflows
-- Workflow reproducibility improvements
