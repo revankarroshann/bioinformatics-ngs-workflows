@@ -1,16 +1,23 @@
-# Raw data
-*.fastq
-
-# Alignment files
-*.sam
-*.bam
-*.bai
-
-# Stats
-*_stats.txt
-
-*.bam
-*.bai
-*.bcf
-*.vcf
+# BWA index files
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
 *.fai
+
+# STAR index
+star_index/
+
+# Temporary STAR files
+_STARtmp/
+
+# R temporary files
+.RData
+.Rhistory
+
+# BAM index files
+*.bai
+
+# FASTQC zip files
+*.zip

@@ -1,0 +1,5 @@
+Snakemake automates bioinformatics workflows.
+
+Rules define workflow steps.
+
+Snakemake manages dependencies and outputs automatically.

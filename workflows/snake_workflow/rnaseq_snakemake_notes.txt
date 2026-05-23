@@ -1,0 +1,5 @@
+Snakemake can automate RNA-seq workflow. 
+
+Workflow rules define analysis steps and dependecies. 
+
+Automation improves scalability and reproducibility in bioinformatics. 

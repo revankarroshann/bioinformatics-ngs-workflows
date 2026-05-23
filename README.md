@@ -1,246 +1,136 @@
-# linux-ngs-foundation
-This repository documents my hands-on training in Linux, Python, and bioinformatics workflows as preparation for NGS Analyst roles.
+# Bioinformatics NGS Workflows
 
-Environment Setup
-* Installed WSL (Ubuntu)
-* Installed Miniconda and created bioinformatics environment
-* Installed libraries: Biopython, Pandas, NumPy, Matplotlib
-* Verified tools: FastQC, BWA, SAMtools
+A beginner-to-intermediate bioinformatics workflow repository focused on Next-Generation Sequencing (NGS) data analysis, RNA-seq processing, workflow automation, and Linux-based bioinformatics pipelines.
 
-Linux Command Line Skills
-File & Directory Operations
-* Navigation: `pwd`, `ls`, `cd`
-* File handling: `touch`, `cp`, `mv`, `rm`
-* Directory creation: `mkdir`
+This repository demonstrates hands-on implementation of commonly used bioinformatics tools and workflows used in genomic and transcriptomic analysis.
 
-Pattern Matching
-* Wildcards: `*.txt`, `*.fastq`
+---
 
-Practice Work
-* Created and managed files using terminal commands
-* Practiced file movement, copying, and deletion
-* Applied wildcard-based filtering for file selection
+# Tools & Technologies
 
-Key Learnings
-* Efficient file handling using terminal instead of GUI
-* Importance of Linux in handling large bioinformatics datasets
-* Foundation for building reproducible pipelines
+- Linux / Bash
+- Python
+- BWA
+- SAMtools
+- FastQC
+- STAR
+- featureCounts
+- DESeq2
+- Snakemake
 
-Progress Log
-* Day 1: Environment setup (WSL, Conda, libraries)
-* Day 2: Linux basics (navigation, file handling, wildcards)
+---
 
-Next Steps
-* Text processing: `grep`, `cut`, `sort`, `uniq`
-* Bash scripting
-* NGS file formats (FASTQ, SAM/BAM, VCF)
-* Python-based sequence processing
+# Repository Structure
 
-Text Processing Day 3
-- grep → filtering data based on patterns
-- wc → counting lines
-- sort → ordering data
-- uniq → removing duplicates / counting frequency
-- cut → extracting columns from structured data
-- pipes (|) → chaining commands
+```bash
+bioinformatics-ngs-workflows/
+│
+├── data/           # Sample FASTQ, CSV, GTF files
+├── notes/          # Learning notes and workflow explanations
+├── results/        # BAM, VCF, QC and alignment outputs
+├── scripts/        # Bioinformatics pipeline scripts
+├── star_output/    # RNA-seq STAR alignment outputs
+├── workflows/      # Snakemake workflow automation
+├── ref.fa          # Reference genome
+└── README.md
+```
 
- Day 4 (Pipelines)
+---
 
-- Created pipeline scripts to automate data processing
-- Combined grep, sort, wc into workflows
-- Practiced multi-step filtering using pipelines
-- Learned how to run scripts using bash
+# Implemented Workflows
 
-Day 5 (Structured Data Processing)
-- Worked with CSV-like biological data
-- Learned to extract columns using cut
-- Used grep for text filtering
-- Used awk for numeric conditions
-- Combined tools to solve structured data problems
+## 1. Variant Calling Workflow
 
-Day 6 (FASTQ Processing)
-- Worked with FASTQ-like structured data
-- Understood 4-line read format
-- Extracted sequence lines using awk (NR % 4)
-- Filtered sequences based on patterns
-- Linked sequence data with read IDs
+Pipeline includes:
+- Reference genome indexing
+- Read alignment using BWA
+- SAM/BAM conversion
+- BAM sorting and indexing
+- Variant calling
+- Variant filtering
 
-Day 7 (FASTQ Workflow)
-- Built mini pipeline for FASTQ data processing
-- Extracted sequences using awk
-- Applied filtering conditions on sequence data
-- Linked sequence data with read IDs
+Key outputs:
+- BAM alignment files
+- VCF variant files
+- Alignment statistics
 
-Day 8 (Dynamic FASTQ Pipeline)
-- Built reusable FASTQ processing pipeline
-- Added dynamic pattern input using command-line arguments
-- Extracted sequences and filtered based on user-defined patterns
-- Linked sequence data with corresponding read IDs
+---
 
- Day 9 (FastQC)
-- Installed FastQC
-- Generated quality report for FASTQ file
-- Checked sequence quality, length, and GC content
+## 2. RNA-seq Workflow
 
-Day 10 (SAMtools)
-- Created SAM file with aligned reads
-- Converted SAM to BAM format
-- Used samtools to view and count reads
+Pipeline includes:
+- STAR genome indexing
+- RNA-seq read alignment
+- BAM processing
+- featureCounts gene quantification
+- Differential expression concepts using DESeq2
 
-Day 11 (SAMtools - Sorting & Indexing)
-- Sorted BAM file using samtools sort
-- Indexed BAM file for fast access
-- Queried reads from chromosome using samtools view
+Key outputs:
+- Sorted BAM files
+- STAR alignment reports
+- Gene count outputs
 
- Day 12 (Alignment Statistics)
-- Used samtools flagstat to analyze alignment
-- Evaluated total, mapped, and unmapped reads
-- Calculated mapping percentage
+---
 
- Day 13 (Python - FASTQ Processing)
-- Wrote Python script to read FASTQ file
-- Counted total number of sequences
-- Applied modulo logic (i % 4) to extract sequence lines
+## 3. Workflow Automation with Snakemake
 
-Day 14 (Python - GC Content Filtering)
-- Calculated GC percentage of sequences from FASTQ
-- Filtered sequences with GC > 50%
-- Applied Python for biological data processing
+Implemented a simplified Snakemake workflow demonstrating:
+- Workflow dependencies
+- Automated execution order
+- RNA-seq workflow orchestration
+- Reproducible pipeline structure
 
-Day 15 (BWA Alignment Pipeline)
-- Aligned FASTQ reads to reference genome using BWA
-- Generated SAM file from alignment
-- Converted SAM to BAM
-- Sorted and indexed BAM file
-- Evaluated alignment using samtools flagstat
+---
 
-Day 16 (Pipeline Automation)
-- Created bash script to automate NGS workflow
-- Integrated BWA alignment and SAMtools processing
-- Generated BAM, sorted BAM, index, and stats automatically
+# Example Scripts
 
-Day 17 (Reusable Pipeline)
-- Modified pipeline to accept FASTQ input as argument
-- Used basename to generate dynamic output file names
-- Prevented overwriting of files
-- Made pipeline reusable for different datasets
+## BWA Alignment Pipeline
 
-Day 18 (Batch Processing)
-- Implemented loop to process multiple FASTQ files
-- Automated alignment and SAMtools steps for each file
-- Enabled batch processing for large datasets
+```bash
+bash scripts/bwa_pipeline_v3.sh
+```
 
-Day 19 (Project Structure)
-- Organized repository into data, scripts, and results folders
-- Updated pipeline to use structured paths
-- Improved project readability and maintainability
+## FASTQ Analysis
 
-Day 20 (Flexible Pipeline)
-- Built a fully flexible pipeline using input arguments
-- Accepts input folder, reference genome, and output folder
-- Supports batch processing of FASTQ files
-- Structured workflow for real-world usage
+```bash
+bash scripts/fastq_analysis.sh
+```
 
-Day 21 (Variant Calling Setup)
-- Installed bcftools
-- Prepared sorted and indexed BAM files
-- Understood preparation steps required before variant calling
+## Gene Analysis
 
-Day 22 (First Variant Calling)
-- Generated first VCF file using bcftools
-- Learned mpileup and variant calling workflow
-- Understood REF, ALT, and genomic variant positions
+```bash
+bash scripts/gene_analysis.sh
+```
 
-Day 23 (Understanding VCF)
-- Learned basic VCF structure
-- Understood CHROM, POS, REF, ALT, and QUAL columns
-- Practiced interpreting simple variants
+---
 
-Day 24 (Variant Filtering)
-- Learned variant filtering using bcftools
-- Understood QUAL (confidence score) and DP (read depth)
-- Generated filtered VCF file using QUAL-based filtering
-- Practiced removing low-confidence variants
+# Example Outputs
 
-Day 25 (Variant Annotation Basics)
-- Learned the purpose of variant annotation
-- Understood LOW, MODERATE, and HIGH impact variants
-- Differentiated between variant calling and annotation
+Repository includes:
+- Filtered VCF files
+- Sorted BAM files
+- FastQC reports
+- STAR alignment logs
+- Workflow execution reports
 
-Day 26 (RNA-seq Introduction)
-- Learned the purpose of RNA-seq and gene expression analysis
-- Understood the difference between WGS and RNA-seq
-- Installed STAR aligner
-- Learned why STAR is splice-aware
+---
 
-Day 27 (STAR Genome Indexing)
-- Learned STAR genome indexing for RNA-seq alignment
-- Understood why indexing is required before alignment
-- Learned that tiny genomes may require smaller indexing settings
-- Successfully generated STAR index files
+# Learning Objectives
 
-Day 28 (STAR RNA-seq Alignment)
-- Performed RNA-seq alignment using STAR
-- Generated RNA-seq alignment outputs and statistics
-- Learned the role of Aligned.out.sam and Log.final.out
-- Understood STAR as a splice-aware RNA-seq aligner
+This repository was built to strengthen practical understanding of:
+- NGS workflows
+- RNA-seq analysis
+- Bioinformatics automation
+- Linux-based pipeline execution
+- Genomic data processing
 
-Day 29 (RNA-seq BAM Processing)
-- Converted STAR SAM output into BAM format
-- Sorted and indexed RNA-seq BAM files
-- Generated alignment statistics using samtools flagstat
-- Reused BAM workflow concepts in RNA-seq analysis
+---
 
-Day 30 (featureCounts and Gene Expression)
-- Installed and used featureCounts for RNA-seq analysis
-- Learned how gene expression counts are generated
-- Understood the role of GTF annotation files
-- Generated a basic gene count matrix
+# Future Improvements
 
-Day 31 (Understanding Count Matrices)
-- Learned the structure of RNA-seq count matrices
-- Understood rows as genes and columns as samples
-- Interpreted gene expression counts from featureCounts output
-- Connected read counts with gene expression levels
-
-Day 32 (Differential Expression Basics)
-- Learned the concept of differential gene expression
-- Understood upregulated and downregulated genes
-- Learned how expression changes between conditions are analyzed
-- Introduced fold change concepts in RNA-seq analysis
-
-Day 33 (R and DESeq2 Setup)
-- Installed R and Bioconductor packages
-- Successfully configured DESeq2 environment
-- Learned the role of DESeq2 in RNA-seq differential expression analysis
-- Understood dependency management in bioinformatics workflows
-
-Day 34 (First DESeq2 Workflow)
-- Loaded count matrix into DESeq2
-- Created DESeq2 datasets using sample metadata
-- Learned the importance of biological replicates
-- Interpreted log2FoldChange and p-values in differential expression results
-
-Day 35 (Volcano Plot Visualization)
-- Created a volcano plot for differential gene expression visualization
-- Learned the meaning of log2 fold change and p-values
-- Interpreted significant upregulated and downregulated genes
-- Understood RNA-seq result visualization basics
-
-Day 36 (Heatmaps and Expression Visualization)
-- Created a gene expression heatmap in R
-- Learned how heatmaps visualize expression intensity
-- Interpreted expression differences across samples
-- Understood the role of heatmaps in transcriptomics analysis
-
-Day 37 (Snakemake Basics)
-- Installed and configured Snakemake
-- Created a basic automated workflow using rules
-- Learned workflow automation concepts in bioinformatics
-- Understood the importance of scalable pipeline execution
-
-Day 38 (RNA-seq Workflow Automation)
-- Built an automated RNA-seq workflow using Snakemake
-- Simulated alignment, BAM processing, and feature counting steps
-- Learned workflow dependencies and execution order
-- Understood reproducibility and automation concepts
+Planned future additions:
+- Full RNA-seq differential expression workflow
+- Multi-sample automation
+- Advanced visualization
+- Containerized workflows
+- Workflow reproducibility improvements
