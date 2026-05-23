@@ -238,3 +238,9 @@ Day 37 (Snakemake Basics)
 - Created a basic automated workflow using rules
 - Learned workflow automation concepts in bioinformatics
 - Understood the importance of scalable pipeline execution
+
+Day 38 (RNA-seq Workflow Automation)
+- Built an automated RNA-seq workflow using Snakemake
+- Simulated alignment, BAM processing, and feature counting steps
+- Learned workflow dependencies and execution order
+- Understood reproducibility and automation concepts
