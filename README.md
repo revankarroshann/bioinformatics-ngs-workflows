@@ -232,3 +232,9 @@ Day 36 (Heatmaps and Expression Visualization)
 - Learned how heatmaps visualize expression intensity
 - Interpreted expression differences across samples
 - Understood the role of heatmaps in transcriptomics analysis
+
+Day 37 (Snakemake Basics)
+- Installed and configured Snakemake
+- Created a basic automated workflow using rules
+- Learned workflow automation concepts in bioinformatics
+- Understood the importance of scalable pipeline execution
